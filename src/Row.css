@@ -4,3 +4,6 @@
     max-height: 100px;
 
 }
+.row_poster{
+    display: flex;
+}
