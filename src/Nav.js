@@ -23,7 +23,7 @@ useEffect(()=>{
   src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg'
   alt='Ntflix-logo'/>
   <img  className='nav_avatar'
-  src='https://preview.redd.it/ty54wbejild91.jpg?auto=webp&s=218374d88a7a4185ad968e1150261e13da2ed1a2'/>
+  src='https://preview.redd.it/ty54wbejild91.jpg?auto=webp&s=218374d88a7a4185ad968e1150261e13da2ed1a2' alt='happyface'/>
   
     </div>
   )
