@@ -31,7 +31,7 @@ function Banner(){
        }}>
        <div className='banner-content'>
      <h1 className='banner_tiltle'>  
-        {movie?.title||movie.name||movie?.original_name}
+        {movie?.title||movie?.name||movie?.original_name}
      </h1>
 
 
@@ -49,6 +49,7 @@ function Banner(){
    <div>
     <h1  className="banner-desciption ">{movie?.overview}</h1>
    </div>
+   <div  className='banner-fadebottom'/>
       
        </header>
     )
