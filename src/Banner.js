@@ -1,4 +1,4 @@
-import react, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import axios from './axios';
 import requests from './request';
 import "./banner.css"
@@ -17,9 +17,9 @@ function Banner(){
         fetchData();
     },[])
 
-   function truncate(str,n){
-    return str?.length>n?str.substr(0,n-1)+"...":str;
-   }
+//    function truncate(str,n){
+//     return str?.length>n?str.substr(0,n-1)+"...":str;
+//    }
 
 
     return(
